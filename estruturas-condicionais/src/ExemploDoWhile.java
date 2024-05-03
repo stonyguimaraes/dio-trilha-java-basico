@@ -8,6 +8,12 @@ public class ExemploDoWhile {
             System.out.println("Telefone tocando");
         }while(tocando());
         System.out.println("Alô !!!");
+
+        int num = 5, count = 1;
+        do {
+            num += count;
+            System.out.println(num);
+        } while (count <= 3);
     }
 
     private static boolean tocando(){
